@@ -34,9 +34,17 @@ uv run --with pytest==8.3.4 pytest -q
 - [Hướng dẫn bằng hình trên CVAT](docs/huong_dan_cvat_bang_hinh.md): từng bước từ đăng nhập tới export, chụp trên ảnh tổng hợp.
 - [Đặc tả bàn giao](docs/delivery_road_v1.0.md): định dạng file nộp, manifest, nộp lại sau Rework.
 - [Thang mức lỗi QC 1](docs/qc_severity_road_v1.0.md): tiêu chí nặng / chính / nhẹ và nguồn tham khảo.
-- [Mẫu Phiếu QC 1](templates/qc1_form.md) và [mẫu báo cáo](templates/report.md).
+- [Phiếu QC 1 đã điền](templates/qc1_form.md) và [báo cáo cá nhân](templates/report.md).
 - [Rubric](RUBRIC.md), [checkpoint](CHECKPOINTS.md), [nộp bài](SUBMISSION.md).
 - [`lab/AGENTS.md`](lab/AGENTS.md): bản máy đọc của guideline, mô tả input/output của script.
 - [Nguồn dữ liệu và giấy phép](ATTRIBUTION.md).
 
 `lint` chỉ kiểm định dạng file. Nó không so bài của bạn với GT và không cho điểm. Coach chấm bằng `road_check check` hoặc `road_check batch` sau buổi.
+
+## Bàn giao Lab 11
+
+[Thư mục Google Drive](https://drive.google.com/drive/folders/11piaNtYyb02yE2StuOA49ELFGEt4oCoH) chứa hai ZIP annotation và manifest:
+
+- `nguyentruongnam-front.zip`
+- `nguyentruongnam-fisheye.zip`
+- `nguyentruongnam-manifest.json`
